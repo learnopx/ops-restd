@@ -1,0 +1,422 @@
+{
+    "Interface": {
+        "49": {
+            "external_ids": {},
+            "name": "49",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "49-1",
+                "49-4",
+                "49-2",
+                "49-3"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "49-1": {
+            "external_ids": {},
+            "name": "49-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "49"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "49-2": {
+            "external_ids": {},
+            "name": "49-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "49"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "49-3": {
+            "external_ids": {},
+            "name": "49-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "49"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "49-4": {
+            "external_ids": {},
+            "name": "49-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "49"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "50": {
+            "external_ids": {},
+            "name": "50",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "50-4",
+                "50-3",
+                "50-1",
+                "50-2"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "50-1": {
+            "external_ids": {},
+            "name": "50-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "50"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "50-2": {
+            "external_ids": {},
+            "name": "50-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "50"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "50-3": {
+            "external_ids": {},
+            "name": "50-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "50"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "50-4": {
+            "external_ids": {},
+            "name": "50-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "50"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "51": {
+            "external_ids": {},
+            "name": "51",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "51-4",
+                "51-1",
+                "51-2",
+                "51-3"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "51-1": {
+            "external_ids": {},
+            "name": "51-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "51"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "51-2": {
+            "external_ids": {},
+            "name": "51-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "51"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "51-3": {
+            "external_ids": {},
+            "name": "51-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "51"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "51-4": {
+            "external_ids": {},
+            "name": "51-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "51"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "52": {
+            "external_ids": {},
+            "name": "52",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "52-3",
+                "52-1",
+                "52-4",
+                "52-2"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "52-1": {
+            "external_ids": {},
+            "name": "52-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "52"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "52-2": {
+            "external_ids": {},
+            "name": "52-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "52"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "52-3": {
+            "external_ids": {},
+            "name": "52-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "52"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "52-4": {
+            "external_ids": {},
+            "name": "52-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "52"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "53": {
+            "external_ids": {},
+            "name": "53",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "53-1",
+                "53-3",
+                "53-2",
+                "53-4"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "53-1": {
+            "external_ids": {},
+            "name": "53-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "53"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "53-2": {
+            "external_ids": {},
+            "name": "53-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "53"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "53-3": {
+            "external_ids": {},
+            "name": "53-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "53"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "53-4": {
+            "external_ids": {},
+            "name": "53-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "53"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "54": {
+            "external_ids": {},
+            "name": "54",
+            "options": {},
+            "other_config": {},
+            "split_children": [
+                "54-2",
+                "54-1",
+                "54-3",
+                "54-4"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "54-1": {
+            "external_ids": {},
+            "name": "54-1",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "54"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "54-2": {
+            "external_ids": {},
+            "name": "54-2",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "54"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "54-3": {
+            "external_ids": {},
+            "name": "54-3",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "54"
+            ],
+            "type": "system",
+            "user_config": {}
+        },
+        "54-4": {
+            "external_ids": {},
+            "name": "54-4",
+            "options": {},
+            "other_config": {},
+            "split_parent": [
+                "54"
+            ],
+            "type": "system",
+            "user_config": {}
+        }
+    },
+    "Port": {
+        "p1": {
+            "admin": [],
+            "bond_active_slave": [],
+            "bond_mode": [],
+            "bond_options": {},
+            "external_ids": {},
+            "ip4_address": [],
+            "ip4_address_secondary": [],
+            "ip6_address": [],
+            "ip6_address_secondary": [],
+            "lacp": [],
+            "mac": [],
+            "name": "p1",
+            "other_config": {},
+            "tag": [],
+            "trunks": [],
+            "vlan_mode": [],
+            "vlan_options": {}
+        }
+    },
+    "System": {
+        "aaa": {
+            "fallback": "false",
+            "radius": "false",
+            "ssh_passkeyauthentication": "enable",
+            "ssh_publickeyauthentication": "enable"
+        },
+        "asset_tag_number": "",
+        "bridges": {
+            "br1": {
+                "datapath_type": "",
+                "external_ids": {},
+                "name": "br1",
+                "other_config": {}
+            },
+            "bridge_normal": {
+                "datapath_type": "",
+                "external_ids": {},
+                "name": "bridge_normal",
+                "other_config": {},
+                "ports": [
+                    "p1"
+                ]
+            }
+        },
+        "bufmon_config": {},
+        "dns_servers": [],
+        "ecmp_config": {},
+        "external_ids": {},
+        "hostname": "",
+        "lacp_config": {},
+        "logrotate_config": {},
+        "mgmt_intf": {},
+        "other_config": {},
+        "subsystems": {
+            "base": {
+                "asset_tag_number": "Open Switch asset tag 222",
+                "external_ids": {},
+                "other_config": {}
+            }
+        },
+        "vrfs": {
+            "vrf_default": {
+                "external_ids": {},
+                "name": "vrf_default",
+                "other_config": {}
+            }
+        }
+    }
+}

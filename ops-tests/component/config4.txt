@@ -1,0 +1,12 @@
+conf t
+router bgp 1
+     bgp router-id 8.0.0.1
+     network 11.0.0.0/8
+     neighbor 8.0.0.2 remote-as 2
+!
+vlan 1
+    no shutdown
+interface 1
+    no shutdown
+    ip address 8.0.0.1/8
+end

@@ -1,0 +1,69 @@
+conf t
+hostname ws2-leaf1
+lldp enable
+!
+!
+!
+!
+router bgp 64100
+     bgp router-id 1.0.255.5
+     network 11.1.1.0/24
+     network 11.1.2.0/24
+     network 11.1.3.0/24
+     maximum-paths 255
+     timers bgp 1 30
+     neighbor 1.0.10.1 remote-as 64611
+     neighbor 1.0.10.1 password bgpsecret
+     neighbor 1.0.20.1 remote-as 64611
+     neighbor 1.0.20.1 password bgpsecret
+     neighbor 1.0.30.1 remote-as 64611
+     neighbor 1.0.30.1 password bgpsecret
+     neighbor 1.0.40.1 remote-as 64611
+     neighbor 1.0.40.1 password bgpsecret
+!
+vlan 1
+    no shutdown
+vlan 1001
+    no shutdown
+vlan 1002
+    no shutdown
+vlan 1003
+    no shutdown
+interface 47
+    no shutdown
+    no routing
+    vlan trunk native 1
+    vlan trunk allowed 1001
+interface 48
+    no shutdown
+    no routing
+    vlan trunk native 1
+    vlan trunk allowed 1002
+interface 49
+    no shutdown
+    ip address 1.0.10.2/30
+interface 50
+    no shutdown
+    ip address 1.0.20.2/30
+interface 51
+    no shutdown
+    ip address 1.0.30.2/30
+interface 52
+    no shutdown
+    ip address 1.0.40.2/30
+interface loopback 1
+    ip address 1.0.255.5/32
+interface vlan1001
+    no shutdown
+    ip address 11.1.1.1/24
+interface vlan1002
+    no shutdown
+    ip address 11.1.2.1/24
+interface vlan1003
+    no shutdown
+    ip address 11.1.3.1/24
+ip route 1.0.255.1/32 1.0.10.1
+ip route 1.0.255.2/32 1.0.20.1
+ip route 1.0.255.3/32 1.0.30.1
+ip route 1.0.255.4/32 1.0.40.1
+end

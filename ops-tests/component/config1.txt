@@ -1,0 +1,11 @@
+conf t
+lldp enable
+hostname spine04
+int 49
+ip address 172.20.45.1/30
+no shutdown
+exit
+int 50
+ip address 172.20.46.1/30
+no shutdown
+end

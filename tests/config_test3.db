@@ -1,0 +1,288 @@
+{
+    "Interface": {
+        "49": {
+            "name": "49",
+            "split_children": [
+                "49-1",
+                "49-3",
+                "49-4",
+                "49-2"
+            ],
+            "type": "system"
+        },
+        "49-1": {
+            "name": "49-1",
+            "split_parent": [
+                "49"
+            ],
+            "type": "system"
+        },
+        "49-2": {
+            "name": "49-2",
+            "split_parent": [
+                "49"
+            ],
+            "type": "system"
+        },
+        "49-3": {
+            "name": "49-3",
+            "split_parent": [
+                "49"
+            ],
+            "type": "system"
+        },
+        "49-4": {
+            "name": "49-4",
+            "split_parent": [
+                "49"
+            ],
+            "type": "system"
+        },
+        "50": {
+            "name": "50",
+            "split_children": [
+                "50-4",
+                "50-2",
+                "50-3",
+                "50-1"
+            ],
+            "type": "system"
+        },
+        "50-1": {
+            "name": "50-1",
+            "split_parent": [
+                "50"
+            ],
+            "type": "system"
+        },
+        "50-2": {
+            "name": "50-2",
+            "split_parent": [
+                "50"
+            ],
+            "type": "system"
+        },
+        "50-3": {
+            "name": "50-3",
+            "split_parent": [
+                "50"
+            ],
+            "type": "system"
+        },
+        "50-4": {
+            "name": "50-4",
+            "split_parent": [
+                "50"
+            ],
+            "type": "system"
+        },
+        "51": {
+            "name": "51",
+            "split_children": [
+                "51-4",
+                "51-1",
+                "51-2",
+                "51-3"
+            ],
+            "type": "system"
+        },
+        "51-1": {
+            "name": "51-1",
+            "split_parent": [
+                "51"
+            ],
+            "type": "system"
+        },
+        "51-2": {
+            "name": "51-2",
+            "split_parent": [
+                "51"
+            ],
+            "type": "system"
+        },
+        "51-3": {
+            "name": "51-3",
+            "split_parent": [
+                "51"
+            ],
+            "type": "system"
+        },
+        "51-4": {
+            "name": "51-4",
+            "split_parent": [
+                "51"
+            ],
+            "type": "system"
+        },
+        "52": {
+            "name": "52",
+            "split_children": [
+                "52-4",
+                "52-3",
+                "52-2",
+                "52-1"
+            ],
+            "type": "system"
+        },
+        "52-1": {
+            "name": "52-1",
+            "split_parent": [
+                "52"
+            ],
+            "type": "system"
+        },
+        "52-2": {
+            "name": "52-2",
+            "split_parent": [
+                "52"
+            ],
+            "type": "system"
+        },
+        "52-3": {
+            "name": "52-3",
+            "split_parent": [
+                "52"
+            ],
+            "type": "system"
+        },
+        "52-4": {
+            "name": "52-4",
+            "split_parent": [
+                "52"
+            ],
+            "type": "system"
+        },
+        "53": {
+            "name": "53",
+            "split_children": [
+                "53-3",
+                "53-2",
+                "53-1",
+                "53-4"
+            ],
+            "type": "system"
+        },
+        "53-1": {
+            "name": "53-1",
+            "split_parent": [
+                "53"
+            ],
+            "type": "system"
+        },
+        "53-2": {
+            "name": "53-2",
+            "split_parent": [
+                "53"
+            ],
+            "type": "system"
+        },
+        "53-3": {
+            "name": "53-3",
+            "split_parent": [
+                "53"
+            ],
+            "type": "system"
+        },
+        "53-4": {
+            "name": "53-4",
+            "split_parent": [
+                "53"
+            ],
+            "type": "system"
+        },
+        "54": {
+            "name": "54",
+            "split_children": [
+                "54-2",
+                "54-4",
+                "54-3",
+                "54-1"
+            ],
+            "type": "system"
+        },
+        "54-1": {
+            "name": "54-1",
+            "split_parent": [
+                "54"
+            ],
+            "type": "system"
+        },
+        "54-2": {
+            "name": "54-2",
+            "split_parent": [
+                "54"
+            ],
+            "type": "system"
+        },
+        "54-3": {
+            "name": "54-3",
+            "split_parent": [
+                "54"
+            ],
+            "type": "system"
+        },
+        "54-4": {
+            "name": "54-4",
+            "split_parent": [
+                "54"
+            ],
+            "type": "system"
+        }
+    },
+    "Port": {
+        "p1": {
+            "name": "p1"
+        }
+    },
+    "System": {
+        "aaa": {
+            "fallback": "false",
+            "radius": "false",
+            "ssh_passkeyauthentication": "enable",
+            "ssh_publickeyauthentication": "enable"
+        },
+        "asset_tag_number": "",
+        "bridges": {
+            "br1": {
+                "datapath_type": "",
+                "name": "br1"
+            },
+            "bridge_normal": {
+                "datapath_type": "",
+                "name": "bridge_normal",
+                "ports": [
+                    "p1"
+                ]
+            }
+        },
+        "hostname": "",
+        "subsystems": {
+            "base": {
+                "asset_tag_number": "Open Switch asset tag 222"
+            }
+        },
+        "vrfs": {
+            "vrf_default": {
+                "Route": {
+                    "static/10.10.10.0\\/24": {
+                        "address_family": [
+                            "ipv4"
+                        ],
+                        "nexthops": {
+                            "Nexthop1": {
+                                "ip_address": [
+                                    "11.11.11.1"
+                                ]
+                            }
+                        },
+                        "prefix": "10.10.10.0/24",
+                        "sub_address_family": [
+                            "unicast"
+                        ]
+                    }
+                },
+                "name": "vrf_default"
+            }
+        }
+    }
+}

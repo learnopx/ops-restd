@@ -1,0 +1,38 @@
+conf t
+hostname ws2-spine1
+lldp enable
+!
+!
+!
+!
+router bgp 64611
+     bgp router-id 10.1.255.1
+     maximum-paths 255
+     timers bgp 1 30
+     neighbor 1.0.10.2 remote-as 64100
+     neighbor 1.0.10.2 password bgpsecret
+     neighbor 1.0.10.2 update-source loopback
+     neighbor 1.0.11.2 remote-as 64101
+     neighbor 1.0.11.2 password bgpsecret
+     neighbor 1.0.11.2 update-source loopback
+     neighbor 1.0.12.2 remote-as 64102
+     neighbor 1.0.12.2 password bgpsecret
+     neighbor 1.0.12.2 update-source loopback
+!
+vlan 1
+    no shutdown
+interface 29
+    no shutdown
+    ip address 1.0.12.1/30
+interface 31
+    no shutdown
+    ip address 1.0.10.1/30
+interface 32
+    no shutdown
+    ip address 1.0.11.1/30
+interface loopback 1
+    ip address 1.0.255.1/32
+ip route 1.0.255.5/32 1.0.10.2
+ip route 1.0.255.6/32 1.0.11.2
+ip route 1.0.255.7/32 1.0.12.2
+end
